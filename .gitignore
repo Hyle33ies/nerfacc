@@ -125,3 +125,10 @@ benchmarks/*
 !benchmarks/kplanes
 !benchmarks/tensorf
 !benchmarks/tineuvox
+
+# logs
+logs_ngp/*
+logs_mlp/*
+logs_ngp_prop/*
+training_progress.txt
+training_progress_*.txt

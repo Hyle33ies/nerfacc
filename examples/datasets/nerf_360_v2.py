@@ -19,7 +19,7 @@ _PATH = os.path.abspath(__file__)
 sys.path.insert(
     0, os.path.join(os.path.dirname(_PATH), "..", "pycolmap", "pycolmap")
 )
-from scene_manager import SceneManager
+from pycolmap import SceneManager
 
 
 def _load_colmap(root_fp: str, subject_id: str, factor: int = 1):
